@@ -1,0 +1,113 @@
+body {
+  height: 100vh;
+  width: 100 vw;
+}
+
+header {
+  max-width: 2000px;
+  height: 7%;
+  background-color: grey;
+}
+
+header > div {
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 70px;
+}
+
+header ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec1 {
+  max-width: 2000px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.sec1 > div {
+  height: 100%;
+  width: 60%;
+  color: gold;
+  font-size: 400%;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 {
+  max-width: 2000px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec2 > div {
+  height: 270px;
+  width: 270px;
+  background-color: aquamarine;
+  border-radius: 7%;
+}
+
+.sec3 {
+  max-width: 2000px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec3 > div {
+  height: 270px;
+  width: 540px;
+  background-color: khaki;
+}
+
+.sec4 {
+  max-width: 2000px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec4 > div {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  width: 400px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+footer {
+  max-width: 2000px;
+  height: 100px;
+  background-color: rgb(70, 70, 70);
+}
